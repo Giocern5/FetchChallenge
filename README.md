@@ -1,8 +1,9 @@
 # FetchChallenge
 
-1.) Display all the items grouped by "listId"
-2.) Sort the results first by "listId" then by "name" when displaying.
-3.) Filter out any items where "name" is blank or null.
+<li>Display all the items grouped by "listId"</li>
+<li>Sort the results first by "listId" then by "name" when displaying.</li>
+<li>Filter out any items where "name" is blank or null.</li>
+
 
 <h1>Built Using</h1>
 <li>Retrofit: Used to easily and safely make HTTP requests to RESTFUL Apis </li>
