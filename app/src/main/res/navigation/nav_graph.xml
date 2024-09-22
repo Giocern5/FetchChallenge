@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userFeedFragment">
+
+    <fragment android:id="@+id/userFeedFragment"
+        android:name="com.example.fetchchallenge.features.userfeed.UserFeedFragment"
+        android:label="postFeedFragment"
+        tools:layout="@layout/fragment_user_feed">
+    </fragment>
+
+</navigation>

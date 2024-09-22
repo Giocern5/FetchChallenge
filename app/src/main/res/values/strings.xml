@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fetch Challenge</string>
+    <string name="list_id_1">List ID: 1</string>
+    <string name="name_item_684">Name: Item 684</string>
+    <string name="user_feed_fragment">userFeedFragment</string>
+    <string name="user_id_format">ID: %1$s</string>
+    <string name="list_id_format">List ID: %1$d</string>
+    <string name="name_format">Name: %1$s</string>
+    <string name="section">Section</string>
+</resources>
