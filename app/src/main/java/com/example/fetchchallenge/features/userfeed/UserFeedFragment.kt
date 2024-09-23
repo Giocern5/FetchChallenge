@@ -39,7 +39,9 @@ class UserFeedFragment : Fragment() {
                 binding.progressbar.visibility = View.GONE
         }
 
-        viewModel.fetchUsers()
+        if (savedInstanceState == null)
+            viewModel.fetchUsers()
+
         viewModel.userFeedData.observe(viewLifecycleOwner) {
             binding.userFeedRv.adapter = UserFeedAdapter(it)
         }
